@@ -15,3 +15,5 @@ This project is a simple e-commerce product page that allows users to view produ
 - Add to cart button with dynamic message(Implented toast for 5s)
 - Product description
 
+
+## Deploy Link : https://mermato-product-detail.netlify.app/
