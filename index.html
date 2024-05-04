@@ -16,41 +16,42 @@
 <body>
     <div class="wrapper">
         <div class="photo-div">
-            <img id="selected-img" height="500" src="/assets/f34ce14e7187edeeb026d73413e4a29c.jpeg" />
+            <img id="selected-img" height="500" src="/assets/f34ce14e7187edeeb026d73413e4a29c.jpeg" alt="photo"/>
             <div class="photos">
-                <img height="100" src="/assets/f34ce14e7187edeeb026d73413e4a29c.jpeg" />
-                <img height="100" src="/assets/38539658df252c621f52c64231e8986a.jpeg" /> 
-                 <img height="100" src="/assets/f34ce14e7187edeeb026d73413e4a29c.jpeg" />
-                 <img height="100" src="/assets/f34ce14e7187edeeb026d73413e4a29c.jpeg" />
-                <img height="100" src="/assets/38539658df252c621f52c64231e8986a.jpeg" />
-    
+                <img height="100" src="/assets/f34ce14e7187edeeb026d73413e4a29c.jpeg" alt="photo" />
+                <img height="100" src="/assets/38539658df252c621f52c64231e8986a.jpeg" alt="photo"/> 
+                 <img height="100" src="/assets/8ad1df2ca3d3367baa54e79cf0caeff1.jpeg"alt="photo" />
+                 <img height="100" src="/assets/38539658df252c621f52c64231e8986a.jpeg" alt="photo"/> 
             </div>
         </div>
         <div>
             <form id="product-form" class="product-details">
             <div id="product-name">
-                <p id="product-short">Mermato</p>
-                <h2 id="product-title">Embrace Sideboard</h2>
+                <p id="product-short"></p>
+                <h2 id="product-title"></h2>
             </div>
+            <hr>
             <div class="divider"></div>
             <div id="product-price">
-                <div>
-                    <h1 id="offer-price">$12999.00</h1>
-                    <span id="off">35% off</span>
+                <div class="price">
+                    <h1 id="offer-price"></h1>
+                    <span id="off"></span>
                 </div>
-                <h2 id="actual-price">$1999</h2>
+                <h2 id="actual-price"></h2>
+                <hr>
             </div>
             <div>
-                <h4>Choose a color</h4>
+                <h4 class="Choose-heading">Choose a Color</h4>
                 <div id="color-options">
                     <input type="checkbox" name="color" />
                     <input type="checkbox" name="color" />
                     <input type="checkbox" name="color" />
                     <input type="checkbox" name="color" />
                 </div>
+                <hr>
             </div>
             <div>
-                <h4>Choose a size</h4>
+                <h4 class="Choose-heading">Choose a Size</h4>
                 <div id="size-options">
                 </div>
             </div>
@@ -72,12 +73,12 @@
                     </svg>
                     <span>Add to Cart</span></button>
             </div>
+            <div class="cart-toast">
+                <span id="toast-text"></span>
+            </div>
+            <hr>
             <div id="product-description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa vel iusto earum molestias
-                    animi veritatis, magni laborum nobis aspernatur alias? Ipsum architecto dolorum harum unde
-                    repudiandae? Facilis, quisquam qui?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                    aperiam non ad fugit fugiat, saepe voluptatibus est laboriosam sed explicabo assumenda at eligendi
-                    velit. Accusantium earum labore sapiente officiis odio!</p>
+                <p id="desc-para"></p>
             </div>
         </form>
         </div>
